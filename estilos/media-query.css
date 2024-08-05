@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*Typical device Breakpoints
+Pequenas Telas: max-width: 600px
+Celulares: min-width: 600px
+Tablet: min-width: 768px
+Desktop: min-width: 992px
+Grandes Telas: min-width: 1200px
+
+*/
+
+
+@media screen and (min-width:768px){
+
+    span#burguer{display: none;}
+
+    menu{
+        display: block;
+    }
+
+    menu ul{
+        padding-left: 20vw;
+    }
+    
+    menu li{
+        display: inline-block;
+        width: 12vw;
+    }
+
+    main{
+        width: 768px;
+    }
+}
